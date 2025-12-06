@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Interdisciplinary Collaboration**: Does the plan involve collaboration across required disciplines (AI, robotics, ethics, etc.)?
+- [ ] **Ethical AI Development**: Are ethical considerations (fairness, privacy, transparency) addressed in the design?
+- [ ] **Robustness & Safety Engineering**: Does the plan include specific measures for robustness, reliability, and safety?
+- [ ] **Human-Robot Interaction Design**: Is the user interaction intuitive, natural, and trustworthy?
+- [ ] **Continuous Learning & Adaptation**: Is the system designed to learn and adapt from real-world interaction?
 
 ## Project Structure
 

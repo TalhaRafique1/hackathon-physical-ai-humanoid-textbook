@@ -1,0 +1,24 @@
+# npm Ignore
+# These files are excluded when publishing to npm
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+*.log
+.env
+.env.local
+.env.*.local
+.flaskenv
+
+# Node specific
+node_modules/
+dist/
+build/
+coverage/
+
+# Docusaurus specific
+docusaurus/build/
+docusaurus/.docusaurus/
+docusaurus/node_modules/

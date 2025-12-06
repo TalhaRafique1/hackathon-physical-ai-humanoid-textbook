@@ -1,0 +1,29 @@
+# Dockerignore for Node.js (Docusaurus/Frontend) and Python (Backend)
+
+# Generic exclusions
+.git/
+.gitignore
+*.log*
+*.env*
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+coverage/
+
+# Node.js specific
+node_modules/
+dist/
+build/
+docusaurus/build/
+docusaurus/.docusaurus/
+docusaurus/node_modules/
+
+# Python specific
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/

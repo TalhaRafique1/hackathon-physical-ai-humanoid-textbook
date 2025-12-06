@@ -1,0 +1,42 @@
+openapi: 3.0.0
+info:
+  title: Physical AI & Humanoid Robotics RAG API
+  version: 1.0.0
+  description: API for the Retrieval-Augmented Generation (RAG) chatbot for the textbook.
+
+paths:
+  /query:
+    post:
+      summary: Submit a query to the RAG chatbot
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: The user's question about the textbook content.
+                user_id:
+                  type: string
+                  format: uuid
+                  description: Optional ID of the user for personalization.
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                    description: The generated answer.
+                  sources:
+                    type: array
+                    items:
+                      type: string
+                      description: A list of chapter/section IDs used as sources.
+        '400':
+          description: Bad Request (e.g., empty query)
