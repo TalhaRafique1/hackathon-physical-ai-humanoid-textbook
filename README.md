@@ -4,13 +4,17 @@ This repository contains the source code and content for the "Physical AI & Huma
 
 ## Project Structure
 
-- `docusaurus/`: Contains the Docusaurus project for the textbook content.
+- `docusaurus/`: Contains the Docusaurus project for the textbook content. The Docusaurus site has been configured with the correct GitHub Pages URL and the main navigation label has been updated from "Tutorial" to "Learning Path". The chapters currently contain outline content as placeholders.
 - `backend/`: Contains the FastAPI backend for the RAG chatbot and personalization services.
 - `frontend/`: Contains shared React components for authentication and other frontend features.
 
 ## Getting Started
 
-Refer to the `specs/001-project-structure/quickstart.md` for instructions on how to set up and run the project locally.
+To get started with the Docusaurus textbook locally:
+
+1. Navigate to the `docusaurus/` directory.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
 
 ## Development Workflow
 
